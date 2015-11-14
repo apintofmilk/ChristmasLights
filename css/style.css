@@ -1,0 +1,38 @@
+/*
+                                                                       M~M.    
+                                MMM.            MM.                    MM.M     
+                      .MM      MMMM           MMMMMM                 IMMMMM     
+      MM~             .MNMMM           M        MM             MMM     MM       
+     MM MMM.           MM .M=   MM    MM MM.    MM            MM :M,   MM       
+    MM. ZMM M.        :MD .MM   MM M. MMMMM  M.+MM .M         MM  MM   MM       
+    MM  MM? M         ?MM MM    M$.M  MMMMM N. ~M$.M         .MM  M    MM       
+    MM  MMMM          DMMMM.    MMM   MM .MM    MMM+          .MMM    .MM       
+     MMM              MM                        ~M.                    MM       
+                      MM                                                        
+                                                                                
+     .      .     .           ..         .   ..               ..    ..    ..    
+    MMMMMMMMM.  .MMMMMMMMM   .MMMMMM7   DMMMMM,           MMMMMM   .MMMMMMM.    
+    MMMMMMMMM.  MMMMMMMMMM   .MM  MM,   DMMMMM,           MMMMMM  ~MMMMMMM      
+    MMMMMMMMMM  MMMMMMMMMM   $M.  ,MM   DMMMMM,           MMMMMM MMMMMMMM       
+    MMMMMMMMMM. MMMMMMMMMM  .MMMMMMNM   DMMMMM,           MMMMMMMMMMMMMM        
+    MMMMMMMMMMMMMMMMMMMMMM  NM MMMMMMM  DMMMMM,           MMMMMMMMMMMMM.        
+    MMMMMMMMMMMMMMMMMMMMMM  MMMMMMMMMM  DMMMMM,           MMMMMMMMMMMI          
+    MMMMMMMMMMMMMMMMMMMMMM  MMMMMMMMIM  DMMMMM,           MMMMMMMMMMM.          
+    MMMMMMDMMMMMMMM.MMMMMM  MMMMMMMMIM  DMMMMM,           MMMMMMMMMMMM,         
+    MMMMMM MMMMMMMM MMMMMM  MMMMMMMMIM  DMMMMM,           MMMMMMMMMMMMM~        
+    MMMMMM MMMMMMMM MMMMMM  MMMMMMMMIM  DMMMMM~           MMMMMMMMMMMMMM,       
+    MMMMMM  MMMMMM  MMMMMM  MMMMMMMMIM  DMMMMMMMMMMMMMM   MMMMMM  MMMMMMM=      
+    MMMMMM  MMMMMM  MMMMMM  MMMMMMMMIM  DMMMMMMMMMMMMMM.  MMMMMM   MMMMMMM$     
+    MMMMMM  MMMMM   MMMMMM  MMZ77777MM. DMMMMMMMMMMMMMM.  MMMMMM    MMMMMMMN    
+     MMMM   ,DMM=   7MMMM.  .?MMMMMMM    MMMMMMMMMMMMM    =MMMM.    .$MMMMM.    
+                                                                                
+
+Theme Name:     Christmas Lights
+Version:		1.0
+Theme URI: 		http://www.apintofmilk.com/
+Description:    Modifications to A Pint Of Milk template.
+Author: 		/u/apintofmilk
+Copyright:		Modifications allowed with this notice remaining in place.
+*/
+
+.lightrope{text-align:center;white-space:nowrap;overflow:hidden}.lightrope li{position:relative;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;list-style:none;padding:0;width:15px;height:30px;border-radius:50%;margin:20px;display:inline-block;background:red;box-shadow:0 0 30px 6px red;-webkit-animation-name:flash-1;animation-name:flash-1}.lightrope li:after,.lightrope li:before{content:"";position:absolute}.lightrope li:nth-child(2n+1){background:#5900ff;box-shadow:0 0 30px 6px #5900ff;-webkit-animation-name:flash-2;animation-name:flash-2;-webkit-animation-duration:.2s;animation-duration:.2s}.lightrope li:nth-child(4n+1){background:#ffd500;box-shadow:0 7px 30px 6px #ffd500;-webkit-animation-name:flash-3;animation-name:flash-3;-webkit-animation-duration:.5s;animation-duration:.5s}.lightrope li:nth-child(odd){-webkit-animation-duration:.9s;animation-duration:.9s}.lightrope li:nth-child(4n+2){-webkit-animation-duration:.7s;animation-duration:.7s}.lightrope li:before{background:#006400;width:13px;height:10px;border-radius:3px;top:-5px;left:1px}.lightrope li:after{top:-15px;left:12px;width:52px;height:20px;border-bottom:solid green 2px;border-radius:50%}.lightrope li:first-child{margin-left:-40px}.lightrope li:last-child:after{content:none}@-webkit-keyframes flash-1{0%,100%{background:red;box-shadow:0 0 30px 6px red}50%{background:rgba(255,0,0,.5);box-shadow:0 0 30px 6px rgba(255,0,0,.2)}}@keyframes flash-1{0%,100%{background:red;box-shadow:0 0 30px 6px red}50%{background:rgba(255,0,0,.5);box-shadow:0 0 30px 6px rgba(255,0,0,.2)}}@-webkit-keyframes flash-2{0%,100%{background:#5900ff;box-shadow:0 0 30px 6px #5900ff}50%{background:rgba(89,0,255,.5);box-shadow:0 0 30px 6px rgba(89,0,255,.2)}}@keyframes flash-2{0%,100%{background:#5900ff;box-shadow:0 0 30px 6px #5900ff}50%{background:rgba(89,0,255,.5);box-shadow:0 0 30px 6px rgba(89,0,255,.2)}}@-webkit-keyframes flash-3{0%,100%{background:#ffd500;box-shadow:0 0 30px 6px #ffd500}50%{background:rgba(255,213,0,.5);box-shadow:0 0 30px 6px rgba(255,213,0,.2)}}@keyframes flash-3{0%,100%{background:#ffd500;box-shadow:0 0 30px 6px #ffd500}50%{background:rgba(255,213,0,.5);box-shadow:0 0 30px 6px rgba(255,213,0,.2)}}
